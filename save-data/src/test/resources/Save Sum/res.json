@@ -1,0 +1,28 @@
+{
+  "fulfillmentText": "Alright, I'll store that for next time. See you then.",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/save-data-btwn-turns-java/agent/sessions/ABwppHE2uCNhlM2d2v01V6YDQd_pdYUAl1N4RZjwq1bl9XrPZRNI9NjjaLmCCia4IQuMxefAJWi6H-BhA4u6vHJXt4baPGYdIw/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{\"firstNum\":23.0,\"sum\":68.0}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": false,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Alright, I'll store that for next time. See you then."
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "userStorage": "{\"data\":{\"sum\":68}}"
+    }
+  }
+}

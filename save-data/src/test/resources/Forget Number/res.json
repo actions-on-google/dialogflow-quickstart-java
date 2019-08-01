@@ -1,0 +1,37 @@
+{
+  "fulfillmentText": "Let's add two new numbers. What is the first number?",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/save-data-btwn-turns-java/agent/sessions/ABwppHGUYtvPYlTCgveHFXqJDtvSqsov6zfc0VIlqyU9afDCK7cif91WK1ZPWI5Reaj2H94iZ1d_gEBh7TPSmiBd-sCsZG3aug/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Alright, I forgot your last result."
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "Let's add two new numbers. What is the first number?"
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.TEXT",
+        "data": {}
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}
