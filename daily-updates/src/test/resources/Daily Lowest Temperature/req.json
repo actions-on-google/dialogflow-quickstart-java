@@ -1,0 +1,122 @@
+{
+  "responseId": "8cb91847-77fe-460e-bfbd-456d2938d5ee-21947381",
+  "queryResult": {
+    "queryText": "Hear lowest temperature",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            ""
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/actions_capability_web_browser"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/google_assistant_input_type_touch"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/_actions_on_google",
+        "lifespanCount": 98,
+        "parameters": {
+          "data": "{}"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/kohler-daily-updates/agent/intents/6c5d9338-389e-4e22-8f85-72664c4b81b0",
+      "displayName": "Daily Lowest Temperature"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "lastSeen": "2019-08-02T22:50:06Z",
+        "userStorage": "{\"data\":{}}",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY",
+        "type": "ACTIVE",
+        "conversationToken": "[\"_actions_on_google\"]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.TEXT",
+          "rawInputs": [
+            {
+              "inputType": "TOUCH",
+              "query": "Hear lowest temperature"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "text",
+              "rawText": "Hear lowest temperature",
+              "textValue": "Hear lowest temperature"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          }
+        ]
+      },
+      "isInSandbox": true,
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            }
+          ]
+        }
+      ],
+      "requestType": "SIMULATOR"
+    }
+  },
+  "session": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY"
+}

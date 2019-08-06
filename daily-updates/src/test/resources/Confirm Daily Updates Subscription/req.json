@@ -1,0 +1,139 @@
+{
+  "responseId": "f802e3f2-562d-4e7f-ba6f-a641f89248e6-21947381",
+  "queryResult": {
+    "queryText": "actions_intent_REGISTER_UPDATE",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            ""
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/actions_capability_web_browser"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/google_assistant_input_type_keyboard"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/_actions_on_google",
+        "lifespanCount": 98,
+        "parameters": {
+          "data": "{}"
+        }
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/actions_intent_register_update",
+        "parameters": {
+          "REGISTER_UPDATE": {
+            "@type": "type.googleapis.com/google.actions.v2.RegisterUpdateValue",
+            "status": "OK"
+          },
+          "text": "11:45am"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/kohler-daily-updates/agent/intents/77be28a0-cb7c-443f-902a-e315d6c85309",
+      "displayName": "Confirm Daily Updates Subscription"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "lastSeen": "2019-08-06T18:40:15Z",
+        "userStorage": "{\"data\":{}}",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY",
+        "type": "ACTIVE",
+        "conversationToken": "[\"_actions_on_google\"]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.REGISTER_UPDATE",
+          "rawInputs": [
+            {
+              "inputType": "KEYBOARD",
+              "query": "Query handled by Actions on Google"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "REGISTER_UPDATE",
+              "extension": {
+                "@type": "type.googleapis.com/google.actions.v2.RegisterUpdateValue",
+                "status": "OK"
+              }
+            },
+            {
+              "name": "text",
+              "rawText": "11:45am",
+              "textValue": "11:45am"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          },
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          }
+        ]
+      },
+      "isInSandbox": true,
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            }
+          ]
+        }
+      ],
+      "requestType": "SIMULATOR"
+    }
+  },
+  "session": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY"
+}

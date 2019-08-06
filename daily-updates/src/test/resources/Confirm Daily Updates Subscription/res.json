@@ -1,0 +1,28 @@
+{
+  "fulfillmentText": "Ok, I'll start giving you daily updates.",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/kohler-daily-updates/agent/sessions/ABwppHFW-Bk2PU1Tx6O_hS5uUld46poLrqVXs1TE5dJpLLgbStv8BG9PX2lHQ0qD_XMf5oSNGIMnsT32Nnlb8m1FTXY/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": false,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Ok, I'll start giving you daily updates."
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}
