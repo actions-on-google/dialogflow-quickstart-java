@@ -1,0 +1,133 @@
+{
+  "responseId": "e8d4ac9e-44c8-45bb-957e-514da1585165-21947381",
+  "queryResult": {
+    "queryText": "browse carousel",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Webhook failed for intent: Browsing Carousel",
+    "fulfillmentMessages": [
+      {
+        "platform": "ACTIONS_ON_GOOGLE",
+        "simpleResponses": {
+          "simpleResponses": [
+            {
+              "textToSpeech": "Webhook failed for intent: Browsing Carousel"
+            }
+          ]
+        }
+      },
+      {
+        "text": {
+          "text": [
+            "Webhook failed for intent: Browsing Carousel"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHFS8VUSnUTYSFT0f-61teFDcAXtYxlE-A6PACObxXxyWJpg_2UeRc7K4uytTl9oQcXjZEAHCXNQkNzwBrAwQ/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHFS8VUSnUTYSFT0f-61teFDcAXtYxlE-A6PACObxXxyWJpg_2UeRc7K4uytTl9oQcXjZEAHCXNQkNzwBrAwQ/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHFS8VUSnUTYSFT0f-61teFDcAXtYxlE-A6PACObxXxyWJpg_2UeRc7K4uytTl9oQcXjZEAHCXNQkNzwBrAwQ/contexts/actions_capability_web_browser"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHFS8VUSnUTYSFT0f-61teFDcAXtYxlE-A6PACObxXxyWJpg_2UeRc7K4uytTl9oQcXjZEAHCXNQkNzwBrAwQ/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHFS8VUSnUTYSFT0f-61teFDcAXtYxlE-A6PACObxXxyWJpg_2UeRc7K4uytTl9oQcXjZEAHCXNQkNzwBrAwQ/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHFS8VUSnUTYSFT0f-61teFDcAXtYxlE-A6PACObxXxyWJpg_2UeRc7K4uytTl9oQcXjZEAHCXNQkNzwBrAwQ/contexts/google_assistant_input_type_keyboard"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHFS8VUSnUTYSFT0f-61teFDcAXtYxlE-A6PACObxXxyWJpg_2UeRc7K4uytTl9oQcXjZEAHCXNQkNzwBrAwQ/contexts/_actions_on_google",
+        "lifespanCount": 98,
+        "parameters": {
+          "data": "{}"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/df-responses-kohler/agent/intents/9a25b83d-f25c-4ee6-90fb-a50a1d641307",
+      "displayName": "Browsing Carousel"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "lastSeen": "2019-08-06T05:21:49Z",
+        "userStorage": "{\"data\":{}}",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHHFS8VUSnUTYSFT0f-61teFDcAXtYxlE-A6PACObxXxyWJpg_2UeRc7K4uytTl9oQcXjZEAHCXNQkNzwBrAwQ",
+        "type": "ACTIVE",
+        "conversationToken": "[\"_actions_on_google\"]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.TEXT",
+          "rawInputs": [
+            {
+              "inputType": "KEYBOARD",
+              "query": "browse carousel"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "text",
+              "rawText": "browse carousel",
+              "textValue": "browse carousel"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          }
+        ]
+      },
+      "isInSandbox": true,
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            }
+          ]
+        }
+      ],
+      "requestType": "SIMULATOR"
+    }
+  },
+  "session": "projects/df-responses-kohler/agent/sessions/ABwppHHFS8VUSnUTYSFT0f-61teFDcAXtYxlE-A6PACObxXxyWJpg_2UeRc7K4uytTl9oQcXjZEAHCXNQkNzwBrAwQ"
+}

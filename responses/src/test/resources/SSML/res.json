@@ -1,0 +1,32 @@
+{
+  "fulfillmentText": "<speak>Here are <say-as interpet-as=\"characters\">SSML</say-as> examples.Here is a buzzing fly <audio src=\"https://actions.google.com/sounds/v1/animals/buzzing_fly.ogg\"></audio>and here's a short pause <break time=\"800ms\"/></speak>",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-responses-kohler/agent/sessions/ABwppHHFS8VUSnUTYSFT0f-61teFDcAXtYxlE-A6PACObxXxyWJpg_2UeRc7K4uytTl9oQcXjZEAHCXNQkNzwBrAwQ/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "<speak>Here are <say-as interpet-as=\"characters\">SSML</say-as> examples.Here is a buzzing fly <audio src=\"https://actions.google.com/sounds/v1/animals/buzzing_fly.ogg\"></audio>and here's a short pause <break time=\"800ms\"/></speak>"
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.TEXT",
+        "data": {}
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}

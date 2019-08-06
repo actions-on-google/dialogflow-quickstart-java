@@ -1,0 +1,86 @@
+{
+  "fulfillmentText": "This is a list example.",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-responses-kohler/agent/sessions/ABwppHHFS8VUSnUTYSFT0f-61teFDcAXtYxlE-A6PACObxXxyWJpg_2UeRc7K4uytTl9oQcXjZEAHCXNQkNzwBrAwQ/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "This is a list example."
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.OPTION",
+        "data": {
+          "listSelect": {
+            "items": [
+              {
+                "description": "This is a description of a list item.",
+                "image": {
+                  "accessibilityText": "Image alternate text",
+                  "url": "https://storage.googleapis.com/actionsresources/logo_assistant_2x_64dp.png"
+                },
+                "optionInfo": {
+                  "key": "SELECTION_KEY_ONE",
+                  "synonyms": [
+                    "synonym 1",
+                    "synonym 2",
+                    "synonym 3"
+                  ]
+                },
+                "title": "Title of First List Item"
+              },
+              {
+                "description": "Google Home is a voice-activated speaker powered by the Google Assistant.",
+                "image": {
+                  "accessibilityText": "Google Home",
+                  "url": "https://storage.googleapis.com/actionsresources/logo_assistant_2x_64dp.png"
+                },
+                "optionInfo": {
+                  "key": "SELECTION_KEY_GOOGLE_HOME",
+                  "synonyms": [
+                    "Google Home Assistant",
+                    "Assistant on the Google Home"
+                  ]
+                },
+                "title": "Google Home"
+              },
+              {
+                "description": "Pixel. Phone by Google.",
+                "image": {
+                  "accessibilityText": "Google Pixel",
+                  "url": "https://storage.googleapis.com/actionsresources/logo_assistant_2x_64dp.png"
+                },
+                "optionInfo": {
+                  "key": "SELECTION_KEY_GOOGLE_PIXEL",
+                  "synonyms": [
+                    "Google Pixel XL",
+                    "Pixel",
+                    "Pixel XL"
+                  ]
+                },
+                "title": "Google Pixel"
+              }
+            ],
+            "title": "List Title"
+          },
+          "@type": "type.googleapis.com/google.actions.v2.OptionValueSpec"
+        }
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}

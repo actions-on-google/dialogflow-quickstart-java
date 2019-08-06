@@ -1,0 +1,37 @@
+{
+  "fulfillmentText": "Which response would you like to see next?",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-responses-kohler/agent/sessions/ABwppHHFS8VUSnUTYSFT0f-61teFDcAXtYxlE-A6PACObxXxyWJpg_2UeRc7K4uytTl9oQcXjZEAHCXNQkNzwBrAwQ/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "You selected the Google Home!"
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "Which response would you like to see next?"
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.TEXT",
+        "data": {}
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}
