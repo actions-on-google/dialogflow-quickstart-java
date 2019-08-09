@@ -15,23 +15,27 @@
  */
 apply plugin: 'java'
 apply plugin: 'kotlin'
-
-apply from: 'build-gcp.gradle'
+apply plugin: 'war'
+apply plugin: com.google.cloud.tools.gradle.appengine.AppEnginePlugin
 
 buildscript {
     ext.kotlin_version = '1.2.30'
 
     repositories {
+        jcenter()
         mavenCentral()
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.cloud.tools:appengine-gradle-plugin:1.+'
+        classpath 'org.akhikhl.gretty:gretty:+'
     }
 }
 
 sourceCompatibility = 1.8
 
 repositories {
+    jcenter()
     mavenCentral()
     maven {
         url 'https://oss.sonatype.org/content/repositories/snapshots/'
@@ -62,6 +66,10 @@ dependencies {
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12
     compile group: 'org.slf4j', name:'slf4j-log4j12', version: '1.7.25'
 
+    providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
+
+    providedCompile group: 'com.google.appengine', name: 'appengine', version: '+'
+
     testImplementation('org.junit.jupiter:junit-jupiter:5.5.1')
 }
 
@@ -74,4 +82,12 @@ compileKotlin {
 }
 compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
+}
+
+appengine {
+    // Deploy configuration
+    deploy {
+        stopPreviousVersion = true  // default - stop the current version
+        promote = true              // default - & make this the current version
+    }
 }
