@@ -33,7 +33,7 @@
   },
   "defaultTimezone": "America/Denver",
   "webhook": {
-    "url": "https://us-central1-<PROJECT-ID>.cloudfunctions.net/dialogflowFirebaseFulfillment",
+    "url": "https://<PROJECT_ID>.appspot.com",
     "username": "",
     "headers": {
       "": ""
