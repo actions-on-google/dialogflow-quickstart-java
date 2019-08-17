@@ -1,0 +1,39 @@
+{
+  "fulfillmentText": "PLACEHOLDER",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-helpers-kohler/agent/sessions/ABwppHEnBGopEWbqdewUI_44mEpZ6Yo3qz5g9ECbCiMeRNeA2qZZNGLGmTNfX2FWYaqhFCsU9L7-d7okRtmSBMw/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "PLACEHOLDER"
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.DATETIME",
+        "data": {
+          "dialogSpec": {
+            "requestDateText": "What day was that?",
+            "requestDatetimeText": "When would you like to schedule the appointment?",
+            "requestTimeText": "What time works for you?"
+          },
+          "@type": "type.googleapis.com/google.actions.v2.DateTimeValueSpec"
+        }
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}

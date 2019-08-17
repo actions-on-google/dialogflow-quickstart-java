@@ -1,0 +1,48 @@
+{
+  "fulfillmentText": "Would you like to try another helper?",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Okay Sachit Mishra, I see you're at Google Building 40 1600 Amphitheatre Parkway, Mountain View, California 94043"
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "Would you like to try another helper?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Confirmation"
+          },
+          {
+            "title": "DateTime"
+          },
+          {
+            "title": "Place"
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.TEXT",
+        "data": {}
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}

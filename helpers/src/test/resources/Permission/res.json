@@ -1,0 +1,39 @@
+{
+  "fulfillmentText": "PLACEHOLDER",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "PLACEHOLDER"
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.PERMISSION",
+        "data": {
+          "@type": "type.googleapis.com/google.actions.v2.PermissionValueSpec",
+          "permissions": [
+            "NAME",
+            "DEVICE_PRECISE_LOCATION"
+          ],
+          "optContext": "To address you by name"
+        }
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}

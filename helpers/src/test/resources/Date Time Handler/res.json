@@ -1,0 +1,48 @@
+{
+  "fulfillmentText": "Would you like to try another helper?",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-helpers-kohler/agent/sessions/ABwppHHnU7RSIOU994H8vd2wLYXbnoIAs3rk-4zUeiRAaX3aJ0dp68Y50MgvddE2stYuI6Hlu-MfWO75Gz76EeY/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "<speak>Great, we will see you on <say-as interpret-as=\"date\" format=\"dm\">14-8</say-as><say-as interpret-as=\"time\" format=\"hms12\" detail=\"2\">10:30</say-as></speak>"
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "Would you like to try another helper?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Confirmation"
+          },
+          {
+            "title": "Permission"
+          },
+          {
+            "title": "Place"
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.TEXT",
+        "data": {}
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}
