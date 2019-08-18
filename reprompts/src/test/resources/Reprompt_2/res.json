@@ -1,0 +1,32 @@
+{
+  "fulfillmentText": "Sorry, I didn't catch that. Could you repeat yourself?",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-reprompts-kohler/agent/sessions/ABwppHFi9Dpwy6KiEtS0UIPDNVfa7mlkrPIEZRlikFkjuN_4SGPixgX8OCatpXu38ln7VG43-nk-7veZWhds3nLljA/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Sorry, I didn't catch that. Could you repeat yourself?"
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.TEXT",
+        "data": {}
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}
