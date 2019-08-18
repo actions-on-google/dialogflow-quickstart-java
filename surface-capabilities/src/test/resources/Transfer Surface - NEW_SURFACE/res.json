@@ -1,0 +1,60 @@
+{
+  "fulfillmentText": "What else would you like to try?",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-surface-caps-kohler/agent/sessions/ABwppHEfQy-JgH7nmiW5gHWiDEyvqNRSPv9zkd3qTVF7F8G8YXJFI2_yal335Co0Z-_N5oUBTmVO_DJUlQONqd5lUgZz-Q/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Welcome to a screen device!"
+            }
+          },
+          {
+            "basicCard": {
+              "formattedText": "Screen devices support basic cards and other visual responses!",
+              "title": "You're on a screened device!"
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "What else would you like to try?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Transfer surface"
+          },
+          {
+            "title": "Check Audio Capability"
+          },
+          {
+            "title": "Check Screen Capability"
+          },
+          {
+            "title": "Check Media Capability"
+          },
+          {
+            "title": "Check Web Capability"
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.TEXT",
+        "data": {}
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}

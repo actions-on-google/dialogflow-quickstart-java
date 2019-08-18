@@ -1,0 +1,54 @@
+{
+  "fulfillmentText": "What else would you like to try?",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-surface-caps-kohler/agent/sessions/ABwppHG7pYytu-kJGJApvrFTk2iNkshy-NLsjlzJg2ntVbxZkoz-rdFch3Fd8Vmlgf0VxmNSK1woelx1otayGwCnE8gzAQ/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Looks like your current device has the screen output capability, has the audio output capability, has the media capability, has the browser capability, does not have the interactive canvas capability."
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "What else would you like to try?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Transfer surface"
+          },
+          {
+            "title": "Check Audio Capability"
+          },
+          {
+            "title": "Check Screen Capability"
+          },
+          {
+            "title": "Check Media Capability"
+          },
+          {
+            "title": "Check Web Capability"
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.TEXT",
+        "data": {}
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}
