@@ -1,0 +1,28 @@
+{
+  "fulfillmentText": "Okay, talk to you next time!",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-exits-kohler/agent/sessions/ABwppHGVnlRtMz1RhGGmDOSlCFAbc2QaM12xYtw0raWvv-R5GYM6tkqiVOpIOexm_LTBCvmARwpbZ_onRuX0/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": false,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Okay, talk to you next time!"
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}
