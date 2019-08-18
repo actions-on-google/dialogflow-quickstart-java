@@ -1,0 +1,28 @@
+{
+  "fulfillmentText": "Alright I'll remember that you like blue. See you!",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": false,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Alright I'll remember that you like blue. See you!"
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "userStorage": "{\"data\":{\"favoriteColor\":\"blue\"}}"
+    }
+  }
+}

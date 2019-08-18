@@ -1,0 +1,32 @@
+{
+  "fulfillmentText": "Hey there! What's your favorite color?",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Hey there! What's your favorite color?"
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.TEXT",
+        "data": {}
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}

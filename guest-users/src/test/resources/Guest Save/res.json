@@ -1,0 +1,28 @@
+{
+  "fulfillmentText": "blue is my favorite too! I can't save that right now but you can tell me again next time!",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": false,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "blue is my favorite too! I can't save that right now but you can tell me again next time!"
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}
