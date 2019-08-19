@@ -1,0 +1,42 @@
+{
+  "fulfillmentText": "I can send you push notifications. Would you like that?",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/PROJECT_ID/agent/sessions/ABwppHG7JpB2ivIKL3W7uaxfz6RAktszoP5x53qtggy9XrtVrrkFdRociU6thOjxBOqsFANSY73frFbFeCLbjxY5wEw/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Hi! Welcome to Push Notifications!"
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "I can send you push notifications. Would you like that?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Send notifications"
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.TEXT",
+        "data": {}
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "fulfillmentText": "Ok, I'll start alerting you.",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/PROJECT_ID/agent/sessions/ABwppHGIgmmU3zBcYMF_vWoHaM4JUo3wniYBHdbUF25l63G7EQWjRnlne8Ar7AOcRHWn1lrEKGy8qdP0UXLcWDBq93k/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": false,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Ok, I'll start alerting you."
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}
