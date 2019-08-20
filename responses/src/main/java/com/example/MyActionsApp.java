@@ -56,7 +56,7 @@ public class MyActionsApp extends DialogflowApp {
                 "Here's an example of a simple response. "
                     + "Which type of response would you like to see next?")
             .setDisplayText(
-                "Here's a simple response. " + "Which response would you like to see next?"));
+                "Here's a simple response. Which response would you like to see next?"));
     return responseBuilder.build();
   }
   // [END df_java_simple_response]
