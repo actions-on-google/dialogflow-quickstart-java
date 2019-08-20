@@ -1,0 +1,43 @@
+{
+  "fulfillmentText": "Thank you for confirming",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-helpers-kohler/agent/sessions/ABwppHEdLCo3vaqVs-pED_sPQDIUr_Ls5JYICyNks9vKbfUaIF8n4P7fYsKEYSiKvD3Vmnli9deu_uTB8s3nPeA/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Thank you for confirming"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Place"
+          },
+          {
+            "title": "DateTime"
+          },
+          {
+            "title": "Permission"
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.TEXT",
+        "data": {}
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "fulfillmentText": "PLACEHOLDER",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-helpers-kohler/agent/sessions/ABwppHEdLCo3vaqVs-pED_sPQDIUr_Ls5JYICyNks9vKbfUaIF8n4P7fYsKEYSiKvD3Vmnli9deu_uTB8s3nPeA/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "PLACEHOLDER"
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.PLACE",
+        "data": {
+          "@type": "type.googleapis.com/google.actions.v2.PlaceValueSpec",
+          "dialog_spec": {
+            "extension": {
+              "permissionContext": "To find  a location",
+              "@type": "type.googleapis.com/google.actions.v2.PlaceValueSpec.PlaceDialogSpec",
+              "requestPrompt": "Where would you like to go?"
+            }
+          }
+        }
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}
