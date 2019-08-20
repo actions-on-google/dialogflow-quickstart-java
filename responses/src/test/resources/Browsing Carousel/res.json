@@ -1,0 +1,62 @@
+{
+  "fulfillmentText": "Here's an example of a browsing carousel.",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-responses-kohler/agent/sessions/ABwppHHFS8VUSnUTYSFT0f-61teFDcAXtYxlE-A6PACObxXxyWJpg_2UeRc7K4uytTl9oQcXjZEAHCXNQkNzwBrAwQ/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Here's an example of a browsing carousel."
+            }
+          },
+          {
+            "carouselBrowse": {
+              "items": [
+                {
+                  "description": "Description of item 1",
+                  "footer": "Item 1 footer",
+                  "image": {
+                    "accessibilityText": "Image alternate text",
+                    "url": "https://storage.googleapis.com/actionsresources/logo_assistant_2x_64dp.png"
+                  },
+                  "openUrlAction": {
+                    "url": "https://example.com"
+                  },
+                  "title": "Title of item 1"
+                },
+                {
+                  "description": "Description of item 2",
+                  "footer": "Item 2 footer",
+                  "image": {
+                    "accessibilityText": "Image alternate text",
+                    "url": "https://storage.googleapis.com/actionsresources/logo_assistant_2x_64dp.png"
+                  },
+                  "openUrlAction": {
+                    "url": "https://example.com"
+                  },
+                  "title": "Title of item 2"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.TEXT",
+        "data": {}
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "fulfillmentText": "This is a table with all the possible fields.",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-responses-kohler/agent/sessions/ABwppHHFS8VUSnUTYSFT0f-61teFDcAXtYxlE-A6PACObxXxyWJpg_2UeRc7K4uytTl9oQcXjZEAHCXNQkNzwBrAwQ/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "This is a table with all the possible fields."
+            }
+          },
+          {
+            "tableCard": {
+              "buttons": [
+                {
+                  "openUrlAction": {
+                    "url": "https://assistant.google.com"
+                  },
+                  "title": "Button Text"
+                }
+              ],
+              "columnProperties": [
+                {
+                  "header": "header 1",
+                  "horizontalAlignment": "CENTER"
+                },
+                {
+                  "header": "header 2",
+                  "horizontalAlignment": "LEADING"
+                },
+                {
+                  "header": "header 3",
+                  "horizontalAlignment": "TRAILING"
+                }
+              ],
+              "image": {
+                "accessibilityText": "Alt text",
+                "url": "https://storage.googleapis.com/actionsresources/logo_assistant_2x_64dp.png"
+              },
+              "rows": [
+                {
+                  "cells": [
+                    {
+                      "text": "row 1 item 1"
+                    },
+                    {
+                      "text": "row 1 item 2"
+                    },
+                    {
+                      "text": "row 1 item 3"
+                    }
+                  ],
+                  "dividerAfter": false
+                },
+                {
+                  "cells": [
+                    {
+                      "text": "row 2 item 1"
+                    },
+                    {
+                      "text": "row 2 item 2"
+                    },
+                    {
+                      "text": "row 2 item 3"
+                    }
+                  ],
+                  "dividerAfter": true
+                },
+                {
+                  "cells": [
+                    {
+                      "text": "row 2 item 1"
+                    },
+                    {
+                      "text": "row 2 item 2"
+                    },
+                    {
+                      "text": "row 2 item 3"
+                    }
+                  ]
+                }
+              ],
+              "subtitle": "Table Subtitle",
+              "title": "Table Title"
+            }
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.TEXT",
+        "data": {}
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}

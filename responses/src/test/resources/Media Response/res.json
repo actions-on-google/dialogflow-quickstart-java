@@ -1,0 +1,62 @@
+{
+  "fulfillmentText": "This is a media response example.",
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-responses-kohler/agent/sessions/ABwppHHFS8VUSnUTYSFT0f-61teFDcAXtYxlE-A6PACObxXxyWJpg_2UeRc7K4uytTl9oQcXjZEAHCXNQkNzwBrAwQ/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "This is a media response example."
+            }
+          },
+          {
+            "mediaResponse": {
+              "mediaObjects": [
+                {
+                  "contentUrl": "https://storage.googleapis.com/automotive-media/Jazz_In_Paris.mp3",
+                  "description": "A funky Jazz tune",
+                  "icon": {
+                    "accessibilityText": "Album cover of an ocean view",
+                    "url": "https://storage.googleapis.com/automotive-media/album_art.jpg"
+                  },
+                  "name": "Jazz in Paris"
+                }
+              ],
+              "mediaType": "AUDIO"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Basic Card"
+          },
+          {
+            "title": "List"
+          },
+          {
+            "title": "Carousel"
+          },
+          {
+            "title": "Browsing Carousel"
+          }
+        ]
+      },
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.TEXT",
+        "data": {}
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}
