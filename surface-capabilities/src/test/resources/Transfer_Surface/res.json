@@ -1,9 +1,8 @@
 {
-  "fulfillmentText": "What else would you like to try?",
   "outputContexts": [
     {
       "lifespanCount": 99,
-      "name": "projects/df-surface-caps-kohler/agent/sessions/ABwppHG7pYytu-kJGJApvrFTk2iNkshy-NLsjlzJg2ntVbxZkoz-rdFch3Fd8Vmlgf0VxmNSK1woelx1otayGwCnE8gzAQ/contexts/_actions_on_google",
+      "name": "projects/df-surface-caps-kohler/agent/sessions/ABwppHEa1TRSh-5LTp7_J4N03jrfMWgczADdCYvqDG2XNIizcayzvzdMwwT1KP3hJ37C6SveUT4Q6yiNyRvThUXiXVilaQ/contexts/_actions_on_google",
       "parameters": {
         "data": "{}"
       }
@@ -12,41 +11,17 @@
   "payload": {
     "google": {
       "expectUserResponse": true,
-      "richResponse": {
-        "items": [
-          {
-            "simpleResponse": {
-              "textToSpeech": "You're already on a screen device"
-            }
-          },
-          {
-            "simpleResponse": {
-              "textToSpeech": "What else would you like to try?"
-            }
-          }
-        ],
-        "suggestions": [
-          {
-            "title": "Transfer surface"
-          },
-          {
-            "title": "Check Audio Capability"
-          },
-          {
-            "title": "Check Screen Capability"
-          },
-          {
-            "title": "Check Media Capability"
-          },
-          {
-            "title": "Check Web Capability"
-          }
-        ]
-      },
       "isSsml": false,
       "systemIntent": {
-        "intent": "actions.intent.TEXT",
-        "data": {}
+        "intent": "actions.intent.NEW_SURFACE",
+        "data": {
+          "capabilities": [
+            "actions.capability.SCREEN_OUTPUT"
+          ],
+          "notificationTitle": "Try your Action here!",
+          "@type": "type.googleapis.com/google.actions.v2.NewSurfaceValueSpec",
+          "context": "Let's move you to a screen device for cards and other visual responses"
+        }
       },
       "userStorage": "{\"data\":{}}"
     }
