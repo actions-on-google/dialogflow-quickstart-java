@@ -18,7 +18,6 @@ package com.example;
 
 import com.google.actions.api.ActionRequest;
 import com.google.actions.api.ActionResponse;
-import com.google.actions.api.ActionsSdkApp;
 import com.google.actions.api.Capability;
 import com.google.actions.api.ConstantsKt;
 import com.google.actions.api.DialogflowApp;

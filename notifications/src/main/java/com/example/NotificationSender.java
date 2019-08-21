@@ -33,10 +33,12 @@ public class NotificationSender {
 
     private final String userId;
     private final String intent;
+    private final String locale;
 
-    Target(String userId, String intent) {
+    Target(String userId, String intent, String locale) {
       this.userId = userId;
       this.intent = intent;
+      this.locale = locale;
     }
 
     String getUserId() {
@@ -45,6 +47,10 @@ public class NotificationSender {
 
     String getIntent() {
       return intent;
+    }
+
+    String getLocale() {
+      return locale;
     }
   }
 
@@ -86,9 +92,9 @@ public class NotificationSender {
     }
   }
 
-  private PushNotification createNotification(String title, String userId, String intent) {
+  private PushNotification createNotification(String title, String userId, String intent, String locale) {
     Notification notification = new Notification(title);
-    Target target = new Target(userId, intent);
+    Target target = new Target(userId, intent, locale);
     PushMessage message = new PushMessage(notification, target);
     boolean isInSandbox = true;
     return new PushNotification(message, isInSandbox);
@@ -111,11 +117,12 @@ public class NotificationSender {
     return token.getTokenValue();
   }
 
-  public void sendNotification(String title, String userId, String intent) throws IOException {
+  public void sendNotification(String title, String userId, String intent, String locale) throws IOException {
     Preconditions.checkNotNull(title, "title cannot be null.");
     Preconditions.checkNotNull(userId, "userId cannot be null.");
     Preconditions.checkNotNull(intent, "intent cannot be null.");
-    PushNotification notification = createNotification(title, userId, intent);
+    Preconditions.checkNotNull(locale, "locale cannot be null");
+    PushNotification notification = createNotification(title, userId, intent, locale);
 
     HttpPost request = new HttpPost("https://actions.googleapis.com/v2/conversations:send");
 
@@ -134,7 +141,7 @@ public class NotificationSender {
 
   public static void main(String[] args) throws IOException {
     NotificationSender notificationSender = new NotificationSender();
-    notificationSender.sendNotification("Push Notification Title", "<UPDATES_USER_ID>", "Notification Intent");
+    notificationSender.sendNotification("Push Notification Title", "<UPDATES_USER_ID>", "Notification Intent", "en-US");
   }
 
 }
