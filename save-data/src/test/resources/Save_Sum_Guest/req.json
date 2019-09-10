@@ -1,0 +1,135 @@
+{
+  "responseId": "4597a9e1-1e06-4fe2-b639-72171f7d654a-21947381",
+  "queryResult": {
+    "queryText": "yes",
+    "action": "GetFirstNumber.GetFirstNumber-custom.GetSecondNumber-yes",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Webhook failed for intent: Save Sum",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Webhook failed for intent: Save Sum"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/save-data-btwn-turns-java/agent/sessions/ABwppHE2uCNhlM2d2v01V6YDQd_pdYUAl1N4RZjwq1bl9XrPZRNI9NjjaLmCCia4IQuMxefAJWi6H-BhA4u6vHJXt4baPGYdIw/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/save-data-btwn-turns-java/agent/sessions/ABwppHE2uCNhlM2d2v01V6YDQd_pdYUAl1N4RZjwq1bl9XrPZRNI9NjjaLmCCia4IQuMxefAJWi6H-BhA4u6vHJXt4baPGYdIw/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/save-data-btwn-turns-java/agent/sessions/ABwppHE2uCNhlM2d2v01V6YDQd_pdYUAl1N4RZjwq1bl9XrPZRNI9NjjaLmCCia4IQuMxefAJWi6H-BhA4u6vHJXt4baPGYdIw/contexts/actions_capability_web_browser"
+      },
+      {
+        "name": "projects/save-data-btwn-turns-java/agent/sessions/ABwppHE2uCNhlM2d2v01V6YDQd_pdYUAl1N4RZjwq1bl9XrPZRNI9NjjaLmCCia4IQuMxefAJWi6H-BhA4u6vHJXt4baPGYdIw/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/save-data-btwn-turns-java/agent/sessions/ABwppHE2uCNhlM2d2v01V6YDQd_pdYUAl1N4RZjwq1bl9XrPZRNI9NjjaLmCCia4IQuMxefAJWi6H-BhA4u6vHJXt4baPGYdIw/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/save-data-btwn-turns-java/agent/sessions/ABwppHE2uCNhlM2d2v01V6YDQd_pdYUAl1N4RZjwq1bl9XrPZRNI9NjjaLmCCia4IQuMxefAJWi6H-BhA4u6vHJXt4baPGYdIw/contexts/google_assistant_input_type_keyboard"
+      },
+      {
+        "name": "projects/save-data-btwn-turns-java/agent/sessions/ABwppHE2uCNhlM2d2v01V6YDQd_pdYUAl1N4RZjwq1bl9XrPZRNI9NjjaLmCCia4IQuMxefAJWi6H-BhA4u6vHJXt4baPGYdIw/contexts/_actions_on_google",
+        "lifespanCount": 97,
+        "parameters": {
+          "data": "{\"firstNum\":23.0,\"sum\":68}",
+          "firstNum": 23,
+          "firstNum.original": "23",
+          "secondNum": 45,
+          "secondNum.original": "45"
+        }
+      },
+      {
+        "name": "projects/save-data-btwn-turns-java/agent/sessions/ABwppHE2uCNhlM2d2v01V6YDQd_pdYUAl1N4RZjwq1bl9XrPZRNI9NjjaLmCCia4IQuMxefAJWi6H-BhA4u6vHJXt4baPGYdIw/contexts/getsecondnumber-followup",
+        "parameters": {
+          "secondNum": 45,
+          "secondNum.original": "45"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/save-data-btwn-turns-java/agent/intents/c6fccd47-1494-4707-a314-8791868a7cca",
+      "displayName": "Save Sum"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "lastSeen": "2019-08-01T20:51:33Z",
+        "userStorage": "{\"data\":{}}",
+        "userVerificationStatus": "GUEST"
+      },
+      "conversation": {
+        "conversationId": "ABwppHE2uCNhlM2d2v01V6YDQd_pdYUAl1N4RZjwq1bl9XrPZRNI9NjjaLmCCia4IQuMxefAJWi6H-BhA4u6vHJXt4baPGYdIw",
+        "type": "ACTIVE",
+        "conversationToken": "[\"_actions_on_google\",\"getsecondnumber-followup\"]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.TEXT",
+          "rawInputs": [
+            {
+              "inputType": "KEYBOARD",
+              "query": "yes"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "text",
+              "rawText": "yes",
+              "textValue": "yes"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          }
+        ]
+      },
+      "isInSandbox": true,
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            }
+          ]
+        }
+      ],
+      "requestType": "SIMULATOR"
+    }
+  },
+  "session": "projects/save-data-btwn-turns-java/agent/sessions/ABwppHE2uCNhlM2d2v01V6YDQd_pdYUAl1N4RZjwq1bl9XrPZRNI9NjjaLmCCia4IQuMxefAJWi6H-BhA4u6vHJXt4baPGYdIw"
+}
