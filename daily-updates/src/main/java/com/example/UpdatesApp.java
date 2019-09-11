@@ -75,7 +75,7 @@ public class UpdatesApp extends DialogflowApp {
     Integer lowestTemperature =
         LOWEST_TEMPERATURES.get(LocalDate.now().getDayOfWeek());
     responseBuilder
-        .add("The lowest temperature for today is " +  lowestTemperature + "°F.")
+        .add("The lowest temperature for today is " +  lowestTemperature + " degrees Fahrenheit.")
         .add("I can send you daily updates with the lowest temperature of " +
             "the day. Would you like that?")
         .addSuggestions(new String[] {
