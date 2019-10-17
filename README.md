@@ -3,7 +3,7 @@
 This repo contains samples demonstrating the core features of Actions on Google
 when building with [Dialogflow](dialogflow.com) and using our [Java/Kotlin Client Library](https://github.com/actions-on-google/actions-on-google-java).
 Code snippets from these samples are included throughout the Actions on Google
-[documentation](https://developers.google.com/actions).
+[documentation](https://developers.google.com/assistant).
 
 ### Setup Instructions
 ### Prerequisites
@@ -46,9 +46,9 @@ checks a given sample's `dialogflow/test/dialog.csv` file to ensure each turn of
 the expected intent.
 
 ### References & Issues
-+ Questions? Go to [StackOverflow](https://stackoverflow.com/questions/tagged/actions-on-google), [Assistant Developer Community on Reddit](https://www.reddit.com/r/GoogleAssistantDev/) or [Support](https://developers.google.com/actions/support/).
++ Questions? Go to [StackOverflow](https://stackoverflow.com/questions/tagged/actions-on-google), [Assistant Developer Community on Reddit](https://www.reddit.com/r/GoogleAssistantDev/) or [Support](https://developers.google.com/assistant/support).
 + For bugs, please report an issue on Github.
-+ Actions on Google [Documentation](https://developers.google.com/actions/extending-the-assistant)
++ Actions on Google [Documentation](https://developers.google.com/assistant)
 + [Webhook Boilerplate Template](https://github.com/actions-on-google/dialogflow-webhook-boilerplate-java) for Actions on Google.
 + More info about [Gradle & the App Engine Plugin](https://cloud.google.com/appengine/docs/flexible/java/using-gradle).
 + More info about deploying [Java apps with App Engine](https://cloud.google.com/appengine/docs/standard/java/quickstart).
