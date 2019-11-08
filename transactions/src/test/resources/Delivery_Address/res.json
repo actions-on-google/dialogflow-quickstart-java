@@ -1,0 +1,27 @@
+{
+  "outputContexts": [
+    {
+      "lifespanCount": 99,
+      "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/_actions_on_google",
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ],
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "isSsml": false,
+      "systemIntent": {
+        "intent": "actions.intent.DELIVERY_ADDRESS",
+        "data": {
+          "@type": "type.googleapis.com/google.actions.v2.DeliveryAddressValueSpec",
+          "addressOptions": {
+            "reason": "To know where to send the order"
+          }
+        }
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}
