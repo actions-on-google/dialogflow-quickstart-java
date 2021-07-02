@@ -5,6 +5,8 @@ when building with [Dialogflow](dialogflow.com) and using our [Java/Kotlin Clien
 Code snippets from these samples are included throughout the Actions on Google
 [documentation](https://developers.google.com/assistant).
 
+:warning: These code samples were built using Dialogflow. We now recommend using [Actions Builder or the Actions SDK](https://developers.google.com/assistant/conversational/overview) to develop, test, and deploy Conversational Actions.
+
 ### Setup Instructions
 ### Prerequisites
 1. Download & install the [Google Cloud SDK](https://cloud.google.com/sdk/docs/)
