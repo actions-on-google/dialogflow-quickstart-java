@@ -1,5 +1,9 @@
 # Actions on Google: Dialogflow Docs Samples (Java)
 
+*:warning: Warning: Conversational Actions will be deprecated on June 13, 2023. For more information, 
+see [Conversational Actions Sunset](https://goo.gle/ca-sunset).*
+
+
 This repo contains samples demonstrating the core features of Actions on Google
 when building with [Dialogflow](dialogflow.com) and using our [Java/Kotlin Client Library](https://github.com/actions-on-google/actions-on-google-java).
 Code snippets from these samples are included throughout the Actions on Google
